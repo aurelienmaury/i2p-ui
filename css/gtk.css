@@ -1,0 +1,19 @@
+html,
+body {
+  background-color: #cecece;
+  color: #3c3c3c;
+}
+div.header-bar {
+  box-shadow: inset 1px 1px 1, inset -1px -1px 1;
+  padding: 0;
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cacaca;
+  background-color: #cccccc;
+  color: #3c3c3c;
+}
+div.header-bar ul > li.menu:hover {
+  background-color: #398ee7;
+}
+/*# sourceMappingURL=gtk.css.map */

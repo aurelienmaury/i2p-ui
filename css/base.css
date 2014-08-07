@@ -1,0 +1,51 @@
+ul.title-area li.name a {
+  font-weight: bold;
+}
+ul.title-area li.name a img {
+  margin-top: -5px;
+}
+.accordion.metrics .accordion-navigation.metrics > .content,
+.accordion.metrics dd > .content {
+  padding: 0px;
+}
+.accordion.metrics .accordion-navigation.metrics > .content.active,
+.accordion.metrics dd > .content.active {
+  background: none repeat scroll 0% 0% #575757;
+  border-bottom: 1px solid #000;
+}
+.accordion.metrics .accordion-navigation.metrics > .content.active h1,
+.accordion.metrics dd > .content.active h1 {
+  color: #FFF;
+}
+.accordion.metrics .accordion-navigation.metrics > a,
+.accordion.metrics dd > a {
+  padding: 2px;
+  background-color: #575757;
+  color: #FFFFFF;
+  font-size: 1em;
+  display: inline-block;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+div.row.metrics {
+  color: #FFFFFF;
+  font-size: 0.8em;
+}
+div.row.metrics div.cell {
+  text-align: center;
+  padding: 5px 15px;
+}
+div.row.metrics div.cell h1 {
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+div.row.metrics div.cell div.inner-row {
+  padding: 0;
+  clear: both;
+}
+div.row.metrics div.cell div.inner-row div.left {
+  font-weight: bold;
+}
+/*# sourceMappingURL=base.css.map */
