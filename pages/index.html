@@ -1,17 +1,284 @@
-{{<default}}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
 
-{{$headline}}Welcome to Glue{{/headline}}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{{$body}}
-<p>
-    A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to
-    take away.
-</p>
-<p>
-    Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam
-    placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.
-    Maecenas erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-</p>
-{{/body}}
+    <title>I2P Console</title>
 
-{{/default}}
+    <meta name="author" content="azr">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/base.css">
+
+    <script src="i2p_fichiers/modernizr.js"></script>
+</head>
+<body>
+
+<div class="sticky">
+    <nav class="top-bar" data-topbar>
+
+        <ul class="title-area">
+            <li class="name">
+                <h1>
+                    <a href="#">
+                        <img src="img/logo_small.png"/> I2P
+                    </a>
+                </h1>
+            </li>
+        </ul>
+
+        <section class="top-bar-section">
+
+            <ul class="left">
+                <li class="has-dropdown"><a href="#">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Torrent</a></li>
+                        <li><a href="#">Website</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </section>
+    </nav>
+</div>
+
+
+<dl class="metrics accordion" data-accordion>
+    <dd class="metrics accordion-navigation">
+
+        <div id="panel1" class="content active">
+            <div class="row metrics">
+
+                <div class="large-3 columns cell" data-equalizer-watch="data-equalizer-watch">
+                    <h1>Peers</h1>
+
+                    <div class="inner-row">
+                        <div class="left">Active</div>
+                        <div class="right">9 / 9</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Fast:</div>
+                        <div class="right">12</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">High capacity:</div>
+                        <div class="right">10</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Integrated</div>
+                        <div class="right">43</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Known</div>
+                        <div class="right">95</div>
+                    </div>
+                </div>
+
+                <div class="large-3 columns cell" data-equalizer-watch="data-equalizer-watch">
+                    <h1>Bandwith</h1>
+                    <div class="inner-row">
+                        <div class="left">3 sec:</div>
+                        <div class="right">2,04 / 0,49 KBps</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">5 min:</div>
+                        <div class="right">0,11 / 0,17 KBps</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Total:</div>
+                        <div class="right">0,85 / 0,74 KBps</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Used:</div>
+                        <div class="right">593,53 KB / 445,25 KB</div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="large-3 columns cell" data-equalizer-watch="data-equalizer-watch">
+                    <h1>Tunnels</h1>
+                    <div class="inner-row">
+                        <div class="left">Exploratory:</div>
+                        <div class="right">7</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Client:</div>
+                        <div class="right">5</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Participating:</div>
+                        <div class="right">0</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Share ratio:</div>
+                        <div class="right">0.00</div>
+                    </div>
+                </div>
+                <div class="large-3 columns cell" data-equalizer-watch="data-equalizer-watch">
+                    <h1>Congestion</h1>
+                    <div class="inner-row">
+                        <div class="left">Job lag:</div>
+                        <div class="right">0</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Message delay:</div>
+                        <div class="right">268 ms</div>
+                    </div>
+                    <div class="inner-row">
+                        <div class="left">Backlog:</div>
+                        <div class="right">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#panel1">metrics</a>
+    </dd>
+</dl>
+
+<div class="row">
+
+    <div class="large-3 columns ">
+        <div class="panel">
+            <a href="#"><img src="i2p_fichiers/300x240textimg.gif"></a>
+            <h5><a href="#">Your Name</a></h5>
+
+            <div class="section-container vertical-nav" data-section=""
+                 data-options="deep_linking: false; one_up: true">
+                <section class="section">
+                    <h5 class="title"><a href="#">Section 1</a></h5>
+                </section>
+                <section class="section">
+                    <h5 class="title"><a href="#">Section 2</a></h5>
+                </section>
+                <section class="section">
+                    <h5 class="title"><a href="#">Section 3</a></h5>
+                </section>
+                <section class="section">
+                    <h5 class="title"><a href="#">Section 4</a></h5>
+                </section>
+                <section class="section">
+                    <h5 class="title"><a href="#">Section 5</a></h5>
+                </section>
+                <section class="section">
+                    <h5 class="title"><a href="#">Section 6</a></h5>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="large-6 columns">
+
+        <div class="row">
+            <div class="large-2 columns small-3"><img src="i2p_fichiers/80x80textimg.gif"></div>
+            <div class="large-10 columns">
+                <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla
+                    ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in
+                    reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+                <ul class="inline-list">
+                    <li><a href="">Reply</a></li>
+                    <li><a href="">Share</a></li>
+                </ul>
+                <h6>2 Comments</h6>
+
+                <div class="row">
+                    <div class="large-2 columns small-3"><img src="i2p_fichiers/50x50textimg.gif"></div>
+                    <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod
+                        commodo, chuck duis velit. Aute in reprehenderit</p></div>
+                </div>
+                <div class="row">
+                    <div class="large-2 columns small-3"><img src="i2p_fichiers/50x50textimg.gif"></div>
+                    <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod
+                        commodo, chuck duis velit. Aute in reprehenderit</p></div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="large-2 columns small-3"><img src="i2p_fichiers/80x80textimg.gif"></div>
+            <div class="large-10 columns">
+                <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla
+                    ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in
+                    reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+                <ul class="inline-list">
+                    <li><a href="">Reply</a></li>
+                    <li><a href="">Share</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="large-2 columns small-3"><img src="i2p_fichiers/80x80textimg.gif"></div>
+            <div class="large-10 columns">
+                <p><strong>Some Person said:</strong> Bacon ipsum dolor sit amet nulla
+                    ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in
+                    reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+                <ul class="inline-list">
+                    <li><a href="">Reply</a></li>
+                    <li><a href="">Share</a></li>
+                </ul>
+                <h6>2 Comments</h6>
+
+                <div class="row">
+                    <div class="large-2 columns small-3"><img src="i2p_fichiers/50x50textimg.gif"></div>
+                    <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod
+                        commodo, chuck duis velit. Aute in reprehenderit</p></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <aside class="large-3 columns hide-for-small">
+        <p><img src="i2p_fichiers/300x440textad.gif"></p>
+
+        <p><img src="i2p_fichiers/300x440textad.gif"></p>
+    </aside>
+</div>
+
+<footer class="row">
+    <div class="large-12 columns">
+        <hr>
+        <div class="row">
+            <div class="large-5 columns">
+                <p>© Copyright no one at all. Go to town.</p>
+            </div>
+            <div class="large-7 columns">
+                <ul class="inline-list right">
+                    <li><a href="#">Section 1</a></li>
+                    <li><a href="#">Section 2</a></li>
+                    <li><a href="#">Section 3</a></li>
+                    <li><a href="#">Section 4</a></li>
+                    <li><a href="#">Section 5</a></li>
+                    <li><a href="#">Section 6</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script src="js/foundation/foundation.accordion.js"></script>
+<script>
+    $(document).foundation();
+
+    var doc = document.documentElement;
+    doc.setAttribute('data-useragent', navigator.userAgent);
+</script>
+
+</body>
+</html>
